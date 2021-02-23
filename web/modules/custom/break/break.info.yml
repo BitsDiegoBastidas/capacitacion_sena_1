@@ -1,0 +1,5 @@
+name: Take a Break
+type: module
+description: 'Take a break!'
+package: Take a break
+core_version_requirement: '9.x'
