@@ -1,0 +1,7 @@
+take_break.adopt:
+  path: '/take-break/adopt'
+  defaults:
+    _controller: '\Drupal\take_break\Controller\TakeBreakController::test'
+    _title: 'Adota un perro'
+  requirements:
+    _permission: 'access content'
