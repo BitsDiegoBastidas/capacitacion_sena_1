@@ -1,0 +1,17 @@
+<?php
+/**
+ * implements hook_theme
+ */
+ function take_break_theme($existing, $type, $theme, $path){
+     return[
+         'take_break' =>[
+             'variables' => ['my_node'=>NULL],
+             'template'=> ' take-break
+         ],
+        'break_forms' => [
+            'template' => 'break-form',
+            'render element' => 'form'
+        ]
+
+    ];
+ }

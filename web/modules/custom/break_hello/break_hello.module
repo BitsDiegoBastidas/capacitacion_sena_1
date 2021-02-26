@@ -1,0 +1,17 @@
+<?php
+/**
+ * implements hook_theme
+ */
+ function break_hello_theme($existing, $type, $theme, $path){
+     return[
+         'break_hello' =>[
+             'variables' => ['my_node'=>NULL],
+             'template'=> 'break-hello'
+         ],
+        'break_forms' => [
+            'template' => 'break-form',
+            'render element' => 'form'
+        ]
+
+    ];
+ }

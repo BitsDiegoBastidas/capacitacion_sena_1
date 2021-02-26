@@ -1,0 +1,16 @@
+break_hello.hello:
+  path: "/break/hello"
+  defaults:
+    _controller: '\Drupal\break_hello\Controller\BreakHelloController::hello'
+    _title: "solicitud de adopcion"
+  requirements:
+    _permission: "access content"
+
+break_hello.form:
+  path: "/form"
+  defaults:
+    _form: '\Drupal\break_forms\Form\Simple'
+    _title: "break form simple"
+  requirements:
+    _permission: "access content"
+

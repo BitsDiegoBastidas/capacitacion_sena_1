@@ -1,0 +1,5 @@
+name: Break Hello
+type: module
+description: 'saludar usuarios'
+package: Break
+core_version_requirement: '9.x'

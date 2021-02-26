@@ -1,0 +1,7 @@
+break_forms.simple:
+ path: '/break/forms/simple'
+ defaults:
+  _form: '\Drupal\break_forms\Form\Simple'
+  _title: 'Simple Form'
+ requirements:
+  _permission: 'access content'

@@ -1,0 +1,6 @@
+take_break.adopt:
+  title: Formulario
+  description: 'pagina para saludar'
+  route_name: take_break.adopt
+  menu_name: main
+  weight: 2
